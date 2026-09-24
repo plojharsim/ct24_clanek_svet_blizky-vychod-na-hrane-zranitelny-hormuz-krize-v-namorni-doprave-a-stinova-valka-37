@@ -1,0 +1,40 @@
+#cc-main {
+	--cc-theme-color-bg: #FBFBFD;
+	--cc-theme-color-bg-contrast: #DEE0E4;
+	--cc-theme-color-bg-contrast-min: #C3C6CC;
+	--cc-theme-color-bg-window-overlay: rgba(0, 0, 0, 0.5);
+	--cc-theme-color-bg-window-shadow: rgba(0, 0, 0, 0.1);
+	
+	--cc-theme-style-border-radius: 0px;
+	--cc-theme-style-logo: url(https://ctfs.ceskatelevize.cz/static/logos/CeskaTelevizeFull.svg);
+	
+	--cc-theme-color-text-accent: #000528;
+	--cc-theme-color-text-default: #000528;
+	--cc-theme-color-text-a-default: #043CDC;
+	--cc-theme-color-text-a-hover: #00288B;
+	--cc-theme-color-text-a-visited: #043CDC;
+	
+	--cc-theme-color-button-primary-text: #FFFFFF;
+	--cc-theme-color-button-primary-text-hover: #FFFFFF;
+	--cc-theme-color-button-primary-bg: #043CDC;
+	--cc-theme-color-button-primary-bg-hover: #00144C;
+	--cc-theme-color-button-primary-shadow: transparent;
+	--cc-theme-color-button-primary-shadow-hover: transparent;
+	--cc-theme-color-button-primary-width: 0;
+	
+	--cc-theme-color-button-secondary-text: #202632;
+	--cc-theme-color-button-secondary-text-hover: #6B6F77;
+	--cc-theme-color-button-secondary-bg: #FFFFFF;
+	--cc-theme-color-button-secondary-bg-hover: #F2F4F8;
+	--cc-theme-color-button-secondary-shadow: transparent;
+	--cc-theme-color-button-secondary-shadow-hover: transparent;
+	--cc-theme-color-button-secondary-width: 1px;
+	
+	--cc-theme-color-toggle-on-bg: #6DD400;
+	--cc-theme-color-toggle-on-knob: #FFFFFF;
+	--cc-theme-color-toggle-off-bg: #FFFFFF;
+	--cc-theme-color-toggle-off-knob: #010614;
+	--cc-theme-color-toggle-readonly-bg: #FFFFFF;
+	--cc-theme-color-toggle-readonly-knob: #A5A8AE;
+	--cc-theme-color-toggle-shadow: rgba(0, 0, 0, .25);
+}

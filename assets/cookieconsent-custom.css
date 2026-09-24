@@ -1,0 +1,287 @@
+/** Česká televize color-scheme **/
+
+.show--consent #cc-main .cm-wrapper:before {
+    pointer-events: none;
+    display: block;
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--cc-theme-color-bg-window-overlay);
+}
+
+#cc-main {    
+    --cc-bg: var(--cc-theme-color-bg);
+    --cc-primary-color: var(--cc-theme-color-text-accent);
+    --cc-secondary-color: var(--cc-theme-color-text-default);
+    
+    --cc-font-family: SourceSansPro, SourceSansPro-Regular, "Source Sans Pro", sans-serif;
+    
+    --cc-modal-border-radius: var(--cc-theme-style-border-radius);
+    --cc-btn-border-radius: var(--cc-theme-style-border-radius);
+    --cc-default-border: var(--cc-theme-color-bg-contrast);
+    
+    --cc-btn-primary-bg: var(--cc-theme-color-button-primary-bg);
+    --cc-btn-primary-color: var(--cc-theme-color-button-primary-text);
+    --cc-btn-primary-border-color: var(--cc-btn-primary-bg);
+    --cc-btn-primary-hover-bg: var(--cc-theme-color-button-primary-bg-hover);
+    --cc-btn-primary-hover-color: var(--cc-theme-color-button-primary-text-hover);
+    --cc-btn-primary-hover-border-color: var(--cc-btn-primary-hover-bg);
+    
+    --cc-btn-secondary-bg: var(--cc-theme-color-button-secondary-bg);
+    --cc-btn-secondary-color: var(--cc-theme-color-button-secondary-text);
+    --cc-btn-secondary-border-color: var(--cc-default-border);
+    --cc-btn-secondary-hover-bg: var(--cc-theme-color-button-secondary-bg-hover);
+    --cc-btn-secondary-hover-color: var(--cc-theme-color-button-secondary-text-hover);
+    --cc-btn-secondary-hover-border-color: var(--cc-btn-secondary-border-color);
+    
+    --cc-separator-border-color: var(--cc-default-border);
+    
+    --cc-toggle-on-bg: var(--cc-theme-color-toggle-on-bg);
+    --cc-toggle-off-bg: var(--cc-theme-color-toggle-off-bg);
+    --cc-toggle-on-knob-bg: var(--cc-theme-color-toggle-on-knob);
+    --cc-toggle-off-knob-bg: var(--cc-theme-color-toggle-off-knob);
+    --cc-toggle-on-knob-box-shadow: 0px 1px 4px 0px var(--cc-theme-color-toggle-shadow) inset;
+    
+    --cc-toggle-readonly-bg: var(--cc-theme-color-toggle-readonly-bg);
+    --cc-toggle-readonly-knob-bg: var(--cc-theme-color-toggle-readonly-knob);
+    --cc-toggle-readonly-knob-icon-color: var(--cc-toggle-readonly-knob-bg);
+    
+    --cc-toggle-readonly-bg: var(--cc-cookie-category-block-hover-bg);
+    
+    --cc-section-category-border: var(--cc-default-border);
+    
+    --cc-cookie-category-block-bg: var(--cc-bg);
+    --cc-cookie-category-block-border: var(--cc-default-border);
+    --cc-cookie-category-block-hover-bg: var(--cc-btn-secondary-hover-bg);
+    --cc-cookie-category-block-hover-border: var(--cc-default-border);
+    --cc-cookie-category-expanded-block-bg: var(--cc-bg);
+    --cc-cookie-category-expanded-block-hover-bg: var(--cc-default-border);
+    
+    --cc-overlay-bg: var(--cc-theme-color-bg-window-overlay);
+    --cc-webkit-scrollbar-bg: var(--cc-section-category-border);
+    --cc-webkit-scrollbar-hover-bg: var(--cc-btn-primary-hover-bg);
+    
+    --cc-footer-border-color: var(--cc-section-category-border);
+    --cc-footer-bg: var(--cc-bg);
+
+     /* -- colors -- */
+    --cc-theme-color-bg: #FFFFFF;
+	--cc-theme-color-bg-contrast: #DEE0E4;
+	--cc-theme-color-bg-contrast-min: #F2F4F8;
+	--cc-theme-color-bg-window-overlay: rgba(0, 0, 0, 0.5);
+	--cc-theme-color-bg-window-shadow: rgba(0, 0, 0, 0.1);
+	
+	--cc-theme-style-border-radius: 4px;
+	--cc-theme-style-logo: url(https://ctfs.ceskatelevize.cz/static/logos/CeskaTelevizeFull.svg);
+	
+	--cc-theme-color-text-accent: #041E42;
+	--cc-theme-color-text-default: #393939;
+	--cc-theme-color-text-a-default: #041E42;
+	--cc-theme-color-text-a-hover: #0A3368;
+	--cc-theme-color-text-a-visited: #6b6f77;
+	
+	--cc-theme-color-button-primary-text: #FFFFFF;
+	--cc-theme-color-button-primary-text-hover: #FFFFFF;
+	--cc-theme-color-button-primary-bg: #458500;
+	--cc-theme-color-button-primary-bg-hover: #1F3C00;
+	--cc-theme-color-button-primary-shadow: rgba(135, 210, 55, 0.3);
+	--cc-theme-color-button-primary-shadow-hover: rgba(69, 133, 0, .25);
+	--cc-theme-color-button-primary-width: 1px;
+	
+	--cc-theme-color-button-secondary-text: #010614;
+	--cc-theme-color-button-secondary-text-hover: #202632;
+	--cc-theme-color-button-secondary-bg: #FFFFFF;
+	--cc-theme-color-button-secondary-bg-hover: #F2F4F8;
+	--cc-theme-color-button-secondary-shadow: rgba(0, 0, 0, .1);
+	--cc-theme-color-button-secondary-shadow-hover: rgba(0, 0, 0, .15);
+	--cc-theme-color-button-secondary-width: 1px;
+	
+	--cc-theme-color-toggle-on-bg: #6DD400;
+	--cc-theme-color-toggle-on-knob: #FFFFFF;
+	--cc-theme-color-toggle-off-bg: #FFFFFF;
+	--cc-theme-color-toggle-off-knob: #010614;
+	--cc-theme-color-toggle-readonly-bg: #FFFFFF;
+	--cc-theme-color-toggle-readonly-knob: #A5A8AE;
+	--cc-theme-color-toggle-shadow: rgba(0, 0, 0, .25);
+
+
+    a {
+        color: var(--cc-primary-color);
+        transition: none !important;
+        text-decoration: underline;
+        background-image: none;
+    }
+    
+    a:hover {
+        color: var(--cc-theme-color-text-a-hover);
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: var(--cc-theme-color-text-a-visited);
+    }
+    
+    .cm,
+    .pm {
+        box-shadow: 0px 12px 16px -6px var(--cc-theme-color-bg-window-shadow);
+        text-align: left !important;
+    }
+    
+    .cm {
+        max-height: 90%;
+        overflow-y: auto;
+    }
+    
+    /* umožňuje scrollovat na malých displejích, kde se skryjí tlačítka */
+    .cm__desc {
+        overflow-y: visible;
+        min-height: fit-content;
+    }
+    
+    .cm__desc,
+    .cm__title {
+        padding: 0 24px;
+    }
+    
+    .cm__texts {
+        padding-top: 18px;
+    }
+        
+    .cm__texts p {
+        padding-bottom: 24px;
+    }
+    
+    .pm__section-title {
+        font-size: 18px;
+    }
+    
+    #cm__title:before {
+        content: var(--cc-theme-style-logo);
+        order: 1 !important;
+        transform-origin: left !important;
+        transform: scale(.6) !important;
+        margin-bottom: 4px;
+        display: block;
+    }
+    
+    h2.cm__title,
+    h2.pm__title {
+        font-size: 1.5rem;
+        font-family: TvSansScreen, TvSansScreenMed, "Tv Sans Screen", "TV Sans Screen", TVSansScreen-Medium, sans-serif;
+        font-weight: 500;
+        line-height: 1.85rem;
+    }
+    
+    .cm__desc,
+    .pm__section-desc {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .cm__btn,
+    .pm__btn {
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.375rem;
+        height: 40px;
+        box-shadow: 0px 1px 2px 0px var(--cc-theme-color-button-primary-shadow);
+        border-width: var(--cc-theme-color-button-primary-width);
+    }
+    
+    .cm__btn:hover,
+    .pm__btn:hover {
+        box-shadow: 0px 12px 16px -6px var(--cc-theme-color-button-primary-shadow-hover);
+    }
+        
+    .cm__btn--secondary,
+    .pm__btn--secondary,
+    .pm__close-btn {
+        border-width: var(--cc-theme-color-button-secondary-width);
+    }
+    
+    .cm__btn--secondary,
+    .pm__btn--secondary {
+        font-weight: 400;
+        box-shadow: 0px 1px 2px 0px var(--cc-theme-color-button-secondary-shadow);
+    }
+    
+    .cm__btn--secondary:hover,
+    .pm__btn--secondary:hover {
+        box-shadow: 0px 12px 16px -6px var(--cc-theme-color-button-secondary-shadow-hover);
+    }
+
+    .section__toggle~.toggle__icon,
+    .section__toggle:checked:disabled~.toggle__icon {
+        box-shadow: 0px 1px 4px 0px var(--cc-theme-color-toggle-shadow) inset;
+    }
+    
+    .toggle__icon-circle {
+        width: 16px;
+        height: 16px;
+        left: 4px;
+        top: 3px;
+    }
+    
+    .toggle__icon-on,
+    .toggle__icon-off {
+        display: none;
+    }
+    
+    @media screen and (max-width:640px) {
+        .cm__desc {
+            max-height: initial;
+        }
+        
+        .cm--flip .cm__btn-group,
+        .cm--flip .cm__btns {
+            flex-direction: column !important;
+        }
+        
+        .cm--flip .cm__btn {
+            margin-bottom: .375rem !important;
+        }
+    }
+    
+    .cm__desc span,
+    .pm__section-desc span {
+        display: block;
+        margin-top: 0.6rem;
+    }
+    
+    .pm {
+        .pm__btn {
+            color: var(--cc-btn-secondary-color);
+            background: var(--cc-btn-secondary-bg);
+            border-color: var(--cc-btn-secondary-border-color);
+            box-shadow: 0px 1px 2px 0px var(--cc-theme-color-button-secondary-shadow);
+            border-width: var(--cc-theme-color-button-secondary-width);
+            font-weight: normal;
+        }
+        
+        .pm__btn:hover {
+            color: var(--cc-btn-secondary-hover-color);
+            background: var(--cc-btn-secondary-hover-bg);
+            border-color: var(--cc-btn-secondary-hover-border-color);
+            box-shadow: 0px 1px 2px 0px var(--cc-theme-color-button-secondary-shadow-hover);
+        }
+          
+        .pm__btn--secondary {
+            color: var(--cc-btn-primary-color);
+            background-color: var(--cc-btn-primary-bg);
+            border-color: var(--cc-btn-primary-border-color);
+            box-shadow: 0px 1px 2px 0px var(--cc-theme-color-button-primary-shadow);
+            border-width: var(--cc-theme-color-button-primary-width);
+            font-weight: bold;
+        }
+        
+        .pm__btn--secondary:hover {
+            color: var(--cc-btn-primary-hover-color);
+            background-color: var(--cc-btn-primary-hover-bg);
+            border-color: var(--cc-btn-primary-hover-border-color);
+            box-shadow: 0px 1px 2px 0px var(--cc-theme-color-button-primary-shadow-hover);
+        }
+    }
+}
